@@ -1,0 +1,77 @@
+body * {
+  background-color: saddlebrown;
+  border: 1px solid black;
+  position: relative;
+}
+
+#container {
+  background-color: white;
+  max-width: 100%;
+  min-width: 820px;
+  overflow: auto;
+}
+
+span{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: darkorchid;
+}
+
+header {
+  float: right;
+  width: 100%;
+  min-height: 100px;
+  background-color: indigo;
+}
+
+.nav {
+  float: left;
+  height: 724px;
+  width: 23%;
+  background-color: royalblue;
+}
+
+#navSection {
+  clear: right;
+  overflow: hidden;
+  height: 200px;
+  background-color: olive;
+}
+
+.subNav {
+  float: left;
+  height: 200px;
+  width: 49%;
+  background-color: palegreen;
+}
+
+.about {
+  float: right;
+  height: 200px;
+  width: 49%;
+  background-color: navajowhite;
+}
+
+#content {
+  clear: right;
+  overflow: hidden;
+  height: 400px;
+  background-color: darkkhaki;
+}
+
+.info {
+  float: left;
+  height: 400px;
+  width: 24.5%;
+  background-color: dimgrey;
+}
+
+footer {
+  clear: right;
+  /* clear: both; */
+  height: 120px;
+  width: 100%;
+  background-color: lightsalmon;
+}
