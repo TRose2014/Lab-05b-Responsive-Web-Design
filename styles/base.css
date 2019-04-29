@@ -1,5 +1,5 @@
 @import url("layout.css");
-@import url("modular.css");
+
 
 * {
   box-sizing: border-box;
@@ -10,8 +10,8 @@ html, body {
 }
 
 body > header, body > footer {
-  background:#444;
-  color: #eee;
+  color: black;
+  font-size: 20px;
   height: 70px;
   line-height: 70px;
   text-align: center;
@@ -33,11 +33,6 @@ main > nav {
   background: #ff0000;
 }
 
-body * {
-  background-color: grey;
-  border: 1px solid black;
- }
-
  main{
    display: grid;
    grid-template-columns: 150px 1fr 150px;
@@ -45,7 +40,7 @@ body * {
  }
  
  header {
-  background-color: lavenderblush
+  background-color: yellow;
  }
 
 
@@ -76,3 +71,76 @@ p{
   height: 115px;
   background-color: greenyellow;
  }
+
+
+/* Mobile Colors   */
+ @media only screen and (max-width: 768px) {
+  header{
+    background: blue;
+  }
+  
+  nav{
+    background: yellow;
+  }
+  
+  aside{
+  background: pink;
+  }
+  
+  article{
+    background: brown;
+  }
+  
+  footer{
+  background: darkkhaki;
+  }
+}
+
+/* Tablet Colors   */
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+  header{
+    background: aqua;
+  }
+  
+  nav{
+    background:tomato;
+  }
+  
+  aside{
+  background: navy;
+  }
+  
+  article{
+    background: wheat;
+  }
+  
+  footer{
+  background: rosybrown;
+  }
+}
+
+/* Desktop Colors   */
+@media only screen and (min-width: 961px) {
+  header{
+    background: darkgoldenrod;
+  }
+  
+  nav{
+    background: lightseagreen;
+  }
+  
+  aside{
+  background: slateblue;
+  }
+  
+  article{
+    background: lime;
+  }
+  
+  footer{
+  background: paleturquoise;
+  }
+}
+
+
+
