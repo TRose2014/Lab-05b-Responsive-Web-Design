@@ -1,0 +1,19 @@
+header{
+  background: darkgoldenrod;
+}
+
+nav{
+  background: lightseagreen;
+}
+
+aside{
+background: slateblue;
+}
+
+article{
+  background: lime;
+}
+
+footer{
+background: paleturquoise;
+}

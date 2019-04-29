@@ -1,3 +1,4 @@
-@import url('./layout/mobile.css') (max-width: 767px);
-@import url('./layout/desktop.css') (min-width: 768px) and (max-width: 960px);
-@import url('./layout/largeDesktop.css') (min-width: 961px);
+@import url('./devices/mobile.css')(max-width: 767px);
+@import url('./devices/tablet.css') (min-width: 768px) and (max-width: 960px);
+@import url('./devices/desktop.css') (min-width: 961px);
+
